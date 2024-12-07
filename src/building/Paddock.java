@@ -31,10 +31,8 @@ public class Paddock extends Building{
         cubbyholes.add(cubbyhole);
     }
 
-    public void addGate(Gate gate) {
-        if (this.gates == null) {
-            this.gates = new ArrayList<>();
-        }
+    public void addGate(Gate gate) 
+        this.gates = new ArrayList<>();
         gates.add(gate);
     }
 
